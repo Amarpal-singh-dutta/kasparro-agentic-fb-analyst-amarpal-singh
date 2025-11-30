@@ -1,5 +1,10 @@
-python: "3.10"
-random_seed: 42
-confidence_min: 0.6
-use_sample_data: false
-data_path: "data/synthetic_fb_ads_undergarments.csv"
+seed: 42
+
+thresholds:
+  low_ctr: 0.015
+  low_roas: 1.2
+
+paths:
+  data: "data/sample.csv"
+  reports: "reports/"
+  logs: "logs/"
