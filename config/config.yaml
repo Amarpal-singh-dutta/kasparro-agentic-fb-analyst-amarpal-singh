@@ -8,3 +8,4 @@ paths:
   data: "data/sample.csv"
   reports: "reports/"
   logs: "logs/"
+  prompts: "prompts/"
